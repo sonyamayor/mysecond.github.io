@@ -13,7 +13,7 @@ background: #cccaff;
     color: #ff009d;
     margin: 10px;
 }
-h2 {
+h1 {
 	text-align: center;
 }
 .blok-menu
@@ -26,4 +26,13 @@ box-shadow: 0px 13px 17px -6px #000000;
 {
 overflow: hidden;
 background: #00CED1;
+}
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #fe96d9;
+    color: #d10081;
+    width: 100%;
 }

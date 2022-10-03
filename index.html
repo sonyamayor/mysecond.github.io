@@ -5,7 +5,7 @@
 	    <link rel="stylesheet" href=style.css >
 		<meta charset="utf-8">
 	</head>
-	<body>
+	<body> <div id = "otst"> 
 		<h1 id="yp">
 			<br />
 			HTML 5 страница со списком гиперссылок + бланк для заполнения (форма)
@@ -57,17 +57,17 @@
 	<h2>Табличка</h2>
 	<table id="tbl" cellpadding="1" border="1" width="30%" width="200" height="200">
 		<tr>
-			<td COLSPAN="2"> Ячейка 1 </td>
-			<td> Ячейка 3</td>
+			<td COLSPAN="2" tr class="z"> Ячейка 1 </td>
+			<td class="ch"> Ячейка 3</td>
 		</tr>
 		<tr>
-			<td ROWSPAN="2"> Ячейка 4 </td>
-			<td>Ячейка 5</td>
-			<td> Ячейка 6</td>
+			<td ROWSPAN="2" tr class="ch"> Ячейка 4 </td>
+			<td tr class="nh">Ячейка 5</td>
+			<td tr class="ch"> Ячейка 6</td>
 		</tr>
 		<tr>
-			<td>Ячейка 8</td>
-			<td> Ячейка 9</td>
+			<td tr class="nh">Ячейка 8</td>
+			<td tr class="ch"> Ячейка 9</td>
 		</tr>
 	</table>
 		
@@ -148,7 +148,8 @@
 	        name="check-1" />
 	        Согласен (а) !</label><br />
 	
-	      
+			
+
 	      <input type="submit" value="Отправить" />
 	    </form>
 		<div id="footer">
